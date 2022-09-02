@@ -1,0 +1,229 @@
+p{
+	color: white;
+}
+
+@media (max-width: 700px){
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+	
+
+}
+body{
+	background:linear-gradient(to left,black,grey);
+
+}
+
+
+header{
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin:auto;
+
+}
+.navegador{
+	display: flex;
+	justify-content: flex-end;
+}
+
+button{
+	margin:10px;
+}
+
+.botones{
+	font-size: 9px;
+	border-radius: 10%;
+	background-color: blue;
+	border:2px solid black;
+
+	
+}
+.porque__web{
+	height: 300px;
+	width: 300px;
+	
+
+}
+section{
+	display: flex;
+	
+	flex-direction: column;
+	align-items: center;
+}
+
+.conteiner-nav{
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+footer h3{
+	display: flex;
+	justify-content: center;
+	font-size: 10px;
+	color: deeppink;
+}
+
+
+.redes{
+	display: flex;
+	justify-content: space-around;
+	color: blue;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px){
+*{
+	font-size: 20px;
+	color: white;
+}
+body{
+	background:linear-gradient(to left,black,grey);
+}
+
+
+a{
+	text-decoration: none;
+	
+
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:20px;
+
+}
+
+button{
+
+}
+.botones{
+	font-size: 15px;
+	border-radius: 10%;
+	background-color: blue;
+	border:3px solid black;
+
+	
+}
+
+
+
+.porque__web{
+	height: 500px;
+	width: 500px;
+}
+
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav h2{
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	color: deeppink;
+}
+
+.ejemplos{
+	display: flex;
+	justify-content:space-around;
+	margin: 30px;
+}
+
+nav img{
+	height: 300px;
+	width: 300px;
+}
+
+
+
+
+
+footer h3{
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	color: deeppink;
+}
+
+
+.redes{
+	display: flex;
+	justify-content: space-around;
+	color: blue;
+}
+
+
+
+.botones:hover{
+	transition: 1s;
+	background-color: deeppink;
+}
+
+
+
+.conteiner-padre{
+	display: grid;
+	grid-template-areas: 
+	"header header header"
+	"section section section"
+	"nav nav nav"
+	"footer footer footer"
+}
+
+.conteiner-header{
+	grid-area: header;
+}
+
+.conteiner-section{
+	grid-area: section;
+}
+
+.conteiner-nav{
+	grid-area: nav;
+}
+
+.conteiner-footer{
+	grid-area: footer;
+}
+
+
+
+
+}

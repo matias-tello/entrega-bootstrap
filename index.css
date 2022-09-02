@@ -1,0 +1,47 @@
+body{
+	background: linear-gradient(to left,grey,black);
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.parrafo-section{
+	color: lightgrey;
+}
+
+.porque{
+	width: 40%;
+	height: 40%;
+}
+
+section{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ejemplos{
+	width: 25%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+nav h2{
+	display: flex;
+	justify-content: center;
+}
+footer h3{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.redes{
+	display: flex;
+	justify-content: space-around;
+}
