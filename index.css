@@ -2,7 +2,7 @@ body{
 	background: linear-gradient(to left,grey,black);
 }
 
-header{
+.header-layout{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -15,6 +15,7 @@ header{
 .porque{
 	width: 40%;
 	height: 40%;
+
 }
 
 section{
@@ -44,4 +45,21 @@ footer h3{
 .redes{
 	display: flex;
 	justify-content: space-around;
+
 }
+
+.navegador{
+	padding:10%;
+
+
+}
+.redes-sociales{
+	display: flex;
+	justify-content: space-around;
+}
+
+p:hover{
+	color: lightblue;
+	transition: 0.5s;
+}
+
