@@ -1,0 +1,16 @@
+footer h3 {
+  color: lightblue; }
+  footer h3 .redes {
+    display: flex;
+    justify-content: space-around; }
+
+header .logo, header img {
+  box-shadow: 1em 1em 1em lightblue; }
+
+header .botones {
+  color: blue; }
+
+section p {
+  color: lightblue; }
+  section p img {
+    box-shadow: 0.5em 0.5em 0.5em lightblue; }

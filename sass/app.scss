@@ -1,0 +1,45 @@
+@mixin color($color){
+	color:$color;
+}
+
+
+$colors:(primario:blue, secundario:lightblue);
+
+footer h3{
+	@include color(lightblue);
+	.redes{
+	display:flex;
+	justify-content:space-around;
+	}
+}
+
+header{
+   
+	.logo{
+	box-shadow:1em 1em 1em lightblue;
+	}
+	.botones{
+	color:map-get($colors, primario);
+	}
+}
+
+section p{
+	color: map-get($colors, secundario);
+
+    img{
+    box-shadow:0.5em 0.5em 0.5em lightblue;
+    }
+} 
+
+
+
+header{
+	img{
+	@extend .logo
+	
+	
+
+	}
+
+}
+
